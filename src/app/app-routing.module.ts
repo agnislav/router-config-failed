@@ -18,8 +18,8 @@ export function prepareFail() {
   return paths;
 }
 
-export const ROUTES = prepareOk();
-// export const ROUTES = prepareFail();
+///export const ROUTES = prepareOk();
+export const ROUTES = prepareFail();
 
 export const routes: Routes = [
     {
